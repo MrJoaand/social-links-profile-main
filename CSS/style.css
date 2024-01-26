@@ -31,6 +31,26 @@ The designs were created to the following widths:
 - Family: [Inter](https://fonts.google.com/specimen/Inter)
 - Weights: 400, 600, 700 */
 
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	/* font-size: 10px; */
+	/* 10px / 16px = 0.625 = 62.5% */
+	/* Percentage of user`s browser font-size setting */
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "inter", sans-serif;
+	line-height: 1;
+	font-weight: 400;
+	color: #555;
+}
+
 /* ******************************* */
 /* GENERAL REUSABLE COMPONENTS */
 /* ******************************* */
